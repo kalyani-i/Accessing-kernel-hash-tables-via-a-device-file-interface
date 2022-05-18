@@ -17,6 +17,7 @@ gcc Compiler
 
 We have to create a device driver "ht438_drv" and create charater device ht438_dev_0 and ht438_dev_1.
 Each device initializes a hashtable ht438_tbl_0 and ht438_tbl_1 respectively.
+using open,read,write,close the hastable can be manipulated.
 
 ###
 
